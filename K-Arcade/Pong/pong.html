@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Arcade | Pong</title>
+    <link rel="stylesheet" href="pong-style.css">
+</head>
+<body>
+    <!-- Main Menu Screen -->
+    <div id="menu">
+        <h2>Pong</h2>
+        <a id="newgame_pvp">- Player Vs Player</a>
+        <a id="newgame_pvai">- Player Vs AI</a>
+    </div>
+
+    <!-- Game Over Screen -->
+    <div id="gameover">
+        <h2>Game Over</h2>
+        <h2 id="score"></h2>
+        <p><span id="winner" style="background-color: #FFFFFF; color: #000000">Test</span> Won !</p>
+        <a id="menu_gameover">back to menu</a>
+    </div>
+
+    <!-- Pong -->
+    <div id="game">
+        <canvas id="c" width="640" height="480" style="background:#000"></canvas>
+        <div id="controls">
+            <span><span>A</span><span>Q</span></span>
+            <span id="ai"><span>&lt;</span><span>&gt;</span></span>
+        </div>
+    </div>
+</body>
+<script src="pong-script.js"></script>
+</html>

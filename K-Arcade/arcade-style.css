@@ -1,0 +1,70 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P';
+    font-size: .9rem;
+    line-height: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('img/Arcade\ Machine.png');
+    background-size: 70%;
+    left: 250px;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #F6EB14;
+    width: fit-content;
+}
+
+ol {
+    transform: scale(1.8,1);
+    position: relative;
+    list-style-type: decimal-leading-zero;
+    top: 25%;
+    left: 72%;
+}
+
+li {
+    color: rgb(0, 255, 42);
+}
+
+.arrow i {
+    display: none;
+}
+
+.arrow {
+    position:relative;
+    display: block;
+    color: #F6EB14;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.arrow:hover i { 
+    display: block;
+    position: absolute;
+    top: 0.50em; 
+    left: -6em;
+}
