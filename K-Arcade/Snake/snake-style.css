@@ -31,7 +31,7 @@ header{
 }
 canvas{
     display: none;
-    margin-top: -600px;
+    margin-top: -100px;
     border-style: solid;
     border-width: 10px;
     border-color: #FFFFFF;
@@ -57,6 +57,35 @@ h1{
 }
 .score_value{
     font-size: inherit;
+}
+
+/* Controls */
+#controls {
+    color: #868686;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top: -380px;
+    margin-left: 250px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: -125px;
+} 
+
+#controls > span {
+    margin-left: 0px;
+}
+
+#controls > span > span {
+    border: 2px solid #868686;
+    border-radius: 5px;
+    padding: 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#controls > span:last-child  > span {
+    transform: rotate(90deg);
 }
 
 
