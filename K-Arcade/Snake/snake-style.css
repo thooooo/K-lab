@@ -105,11 +105,10 @@ h1{
 }
 
 /* Menu Screen Style */
-
 #menu {
     display: block;
     width: 700px;
-    padding-bottom: 350px;
+    padding-bottom: 50px;
     font-size: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -146,7 +145,7 @@ h1{
 #gameover{
     display: none;
     width: 700px;
-    padding-bottom: 350px;
+    padding-bottom: 50px;
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -169,7 +168,7 @@ h1{
 #setting {
     display: none;
     width: 700px;
-    padding-bottom: 350px;
+    padding-bottom: 50px;
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
