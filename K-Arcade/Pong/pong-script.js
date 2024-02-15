@@ -23,7 +23,7 @@ setInterval(function() {
     /////////////////////////////////////////////////////////////
 
     // Pause & Start
-    if (pause && !start) {
+    if(pause && !start) {
         return;
     }
     
@@ -39,9 +39,9 @@ setInterval(function() {
 
     /////////////////////////////////////////////////////////////
 
-    if (solo) {
-        if (miss == 0.5) {
-            if (bvelY < 0) {
+    if(solo) {
+        if(miss == 0.5) {
+            if(bvelY < 0) {
                 rpos += bvelY+0.7 + miss;
             }
             else {
@@ -49,7 +49,7 @@ setInterval(function() {
             }
         }
         else {
-            if (bvelY < 0) {
+            if(bvelY < 0) {
                 rpos += bvelY+0.7;
             }
             else {
@@ -148,7 +148,7 @@ setInterval(function() {
     if(rscore == 3) {
         showScreen(2);
         pause = true;
-        if (solo) {
+        if(solo) {
             win.textContent = "AI";
         }
         else {

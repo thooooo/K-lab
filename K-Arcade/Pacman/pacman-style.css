@@ -1,0 +1,69 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+
+html,
+body {
+  background: #000;
+  font-family: 'Press Start 2P', monospace;
+  font-smooth: never;
+  height: 98vh;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  margin-top: 25vh;
+  padding: 5px;
+  width: 560px;
+}
+
+#pacman-banner {
+  font-weight: bold;
+  font-size: 21pt;
+  margin-right: 100px;
+  color: #ffff00;
+  float: left;
+}
+
+.social-buttons {
+  float: right;
+  position: relative;
+  top: 5px;
+}
+
+.game-container {
+  transform: scale(0.7) translateY(-20%);
+}
+
+/* Controls */
+
+#controls {
+    color: #868686;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    position: absolute;
+    top: 700px;
+    left: 480px;
+    scale: 120%;
+} 
+
+#controls > span {
+    margin-left: 250px;
+}
+
+#controls > span > span {
+    border: 2px solid #868686;
+    border-radius: 5px;
+    padding: 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#controls > span:last-child  > span {
+    transform: rotate(90deg);
+}
