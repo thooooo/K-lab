@@ -486,7 +486,7 @@ body {
 
 
 .deux:after {
-    content:"****";
+    content:"K-Draw";
     position:absolute;
     bottom:10px;
     left:10px;
@@ -495,7 +495,8 @@ body {
 
 .deux {
     background-color: #1e272e;
-    background-image: url("./img/Coming\ Soon.png");
+    background-image: url("./img/KDraw.png");
+    background-position: center;
 }
 
 .trois:after {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Draw</title>
+    <link rel="stylesheet" href="draw-app-style.css">
+    <link rel="icon" href="../img/KClogo.png">
+</head>
+<body>
+    <div class="bg-img"></div>
+
+    <canvas id="canvas"></canvas>
+
+    <nav class="tools-bar">
+        <div class="button button-clear" data-clear></div>
+    </nav>
+
+    <nav class="thickness-bar">
+        <div class="thickness active" data-thickness="4"></div>
+        <div class="thickness" data-thickness="12"></div>
+        <div class="thickness" data-thickness="24"></div>
+        <div class="thickness" data-thickness="48"></div>
+        <div class="thickness" data-thickness="128"></div>
+    </nav>
+
+    <nav class="color-bar">
+        <div class="color" data-color="#9b59b6"></div>
+        <div class="color" data-color="#3498db"></div>
+        <div class="color" data-color="#2ecc71"></div>
+        <div class="color active" data-color="#1abc9c"></div>
+        <div class="color" data-color="#f1c40f"></div>
+        <div class="color" data-color="#e67e22"></div>
+        <div class="color" data-color="#E73C61"></div>
+    </nav>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="draw-app-script.js"></script>
+</html>
